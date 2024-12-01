@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #gameTitle {
+    margin: 20px;
+  }
+  
+  #gameContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+  }
+  
+  .imageContainer {
+    position: relative;
+  }
+  
+  .imageContainer img {
+    width: 500px;
+    height: auto;
+  }
+  
+  .imageContainer canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+  }
+  
+  #scoreContainer {
+    margin: 20px;
+  }
+  
+  #message {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: green;
+  }
